@@ -24,7 +24,7 @@
                     <input class="form-control" type="text" name="password" placeholder="Enter Password">
                 </div> 
                 <div>
-                    <button name="submt" class="btn btn-primary" type="submit">Submit</button>                            
+                    <button name="submit" class="btn btn-primary" type="submit">Submit</button>                            
                 </div>
 
     </form>
