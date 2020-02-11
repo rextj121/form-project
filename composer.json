@@ -1,0 +1,16 @@
+{
+    "name": "rex/form",
+    "description": "Desc",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toju Rex",
+            "email": "rextj121@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0"
+    }
+}
