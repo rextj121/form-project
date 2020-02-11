@@ -14,7 +14,7 @@
         }else{
         header("Location: index.php");
     }
-
+    // sending mail
     
     $transport = (new Swift_SmtpTransport('smtp.mailgun.org', 587, 'TSL')) 
     ->setUsername('postmaster@sandbox57f54ce29a6046f3a936f12768b32f30.mailgun.org')
