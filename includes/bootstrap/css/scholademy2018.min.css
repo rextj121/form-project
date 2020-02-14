@@ -1,0 +1,539 @@
+/* Globals */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+.form-element{
+    margin: 10px 0px;
+}
+
+.btn-submit-wide{
+    width: 100%;
+}
+
+
+.shift-list-right15{
+    margin-left: 15px;
+}
+
+.margingR10{
+    margin-right: 10px;
+}
+
+.marginL10{
+    margin-left: 10px;
+}
+/* #Globals */
+
+
+
+/* Login Page */
+#lg-form{
+    background-color: #d6ebad;
+}
+
+.gen-fm-element{
+    background-color: transparent;
+}
+
+#main-nav{
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+#content-holder{
+    margin-bottom: 20px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+#form-holder-center{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, .5);
+    margin-top: 5%;
+    border-radius: 7px;
+    
+}
+
+#school-data img{
+    width: 90px;
+    height: 90px;
+    max-height: 90px;
+    max-width: 90px;
+}
+
+/* #Login Page */
+
+/* Admin Dashboard*/
+
+#user-image{
+    margin-top: 20px;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+#user-image:hover{
+    opacity: 0.60;
+    cursor: pointer;
+}
+
+
+#user-image img{
+    max-width: 50px;
+    max-height: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#user-info{
+    background-color: #f2f2f2;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+#main-contents{
+    padding-top: 30px;
+}
+
+#date-holder{
+    border-top: solid 1px #e0e0e0;
+}
+
+#admin-notice-board{
+}
+
+.div-title-green{
+    background-color: forestgreen;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.notice-content{
+    border-top: solid 1px #e0e0e0;
+    border-bottom: solid 1px #e0e0e0;
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+.div-heading .small-line{
+    border: solid 3px forestgreen;
+    border-radius: 3px;
+}
+
+.small-line{
+    width: 30px;
+}
+
+#menu-icon{
+    margin-left: 50px;
+}
+
+.rec-div-section{
+    border-radius: 5px;
+    border: solid 3px white;
+    margin-bottom: 5px;
+}
+
+#dashboard-content{
+    margin-bottom: 100px;
+}
+
+#diag-content{
+    width: 60%;
+    height: auto;
+    margin: 10%;
+    margin-bottom: 10%;
+}
+
+#nav-bar-bottom{
+    margin-top: 50px;
+    bottom: 0%;
+    width: 100%;
+}
+
+#bottom_nav{
+}
+
+
+
+#admin-menu{
+    width: 280px;
+    height: 400px;
+    max-height: 400px;
+    max-width: 280px;
+    background-color: #202020;
+    color: #909090;
+    padding: 20px;
+    margin-bottom: 5px;
+    opacity: 0.80px;
+    border-radius: 5px;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+}
+
+#admin-menu{
+    position: fixed;
+    bottom: 100px;
+    left: 5%;
+    z-index: 2000;
+}
+
+.menu-title{
+    border-bottom: solid 1px #404040;
+    margin-bottom: 5px;
+}
+
+.menu-items{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.menu-items:hover{
+    background-color: #404040;
+    border: solid 1px #707070;
+    border-radius: 5px;
+    color: white;
+}
+
+.menu-items-wrapper a{
+    color: #909090;
+}
+
+.menu-items-wrapper a:hover{
+    color: #909090;
+    text-decoration: none;
+}
+
+.menu-items-wrapper{
+    height: 300px;
+    max-height: 300px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.menu-items-wrapper::-webkit-scrollbar{
+    width: 5px;
+    height: 50px;
+}
+
+.menu-items-wrapper::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: rgba(0,0,0, 0.4);
+}
+
+#menu-button:hover{
+    cursor: pointer;
+    color: white;
+}
+
+/*--content--*/
+.content-top-1 {
+    background-color: #fff;
+   	padding: 1.8em;
+   	margin-bottom: 1em; 
+    border: 1px solid #ebeff6;
+    border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.content-top-1:last-child {
+   	margin-bottom: 0em; 
+}
+.content-graph {
+    background-color: #fff;
+    border: 1px solid #ebeff6;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.content-top-2 {
+    padding-left: 0;
+	position:relative;
+}
+.content-color {
+    position: absolute;
+    top: 3%;
+    right: 6%;
+    border:1px solid #F3F3F4;
+	padding:1em;
+	width:150px;
+}
+.content-ch,.content-ch1 {
+	font-size:0.8em;
+	color:#999;
+}
+.content-ch p,.content-ch1 p{
+	float:left;
+}
+.content-ch i{
+	width:10px;
+	height:10px;
+	border:2px solid #999;
+	display: inline-block;
+	margin-right:5px;
+}
+.content-ch1 i{
+	width:10px;
+	height:10px;
+	border:2px solid #FBB03B;
+	background:#FBB03B;
+	display: inline-block;
+	margin-right:5px;
+}
+.content-ch span,.content-ch1 span{
+	float:right;
+}
+.top-content h5 {
+    font-size: 1.3em;
+    color: #B3AEAE;
+	font-family: 'Muli-Regular';
+}
+.top-content label {
+    font-size: 2.3em;
+    color: #000;
+}
+.content-top {
+    padding: 1em 0;
+}
+
+/*--pie-chart---*/
+.pie-title-center {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.pie-value {
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  height: 40px;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -20px;
+  line-height: 40px;
+}
+
+/*----*/
+
+/* Admin Dashboard*/
+
+
+/* Start page */
+
+.bd-main-home{
+    background-color: #a4d246;
+}
+
+
+.data-legend-male{
+    color: #D95459;
+}
+
+.data-legend-female{
+    color: #8bc34a;
+}
+
+
+/* Admission Form */
+
+#admission_form{
+    width: 85%;
+    margin-top: 20px;
+    
+}
+
+#image-preview{
+    background-color: lightgray;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 250px;
+    max-width: 100%;
+    max-height: 250px;
+    margin-bottom: 20px;
+}
+
+
+#image-preview img{
+    border-radius: 5px;
+    height: 250px;
+    max-width: 100%;
+    max-height: 250px;
+}
+
+
+#image_preview_single img{
+    border-radius: 5px;
+    height: 100px;
+    max-width: 120px;
+    max-height: 100px;
+}
+
+
+#image_preview_single{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    max-width: 120px;
+    margin-bottom: 20px;
+}
+
+#adm_form_data input[type=text], #adm_form_data input[type=date], #adm_form_data select, #adm_form_data input[type=email], #adm_form_data input[type=tel],{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+
+#adm_form_data .row{
+    margin-bottom: 15px;
+}
+ 
+
+/* Student Table */
+
+.small-text-table th{
+    font-size: 0.1em;
+    font-weight: lighter;
+    color: dimgray;
+}
+
+.small-text-table td{
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+#std_table{
+    border: none;
+}
+
+.std-small-image{
+    width: 35px;
+    height: 35px;
+    max-height: 35px;
+    max-width: 35px;
+    background-color: lightgrey;
+}
+
+#std_info_small{
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+
+#std_info_small .hd{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #333333;
+    color: white;
+}
+
+
+#present{
+    color: forestgreen;
+}
+
+#absent{
+    color: firebrick;
+}
+
+
+#std-attendance-tbl th, td{
+    font-size: 12px;
+    text-align: center;
+}
+
+
+#std-fees-tbl th, td{
+    font-size: 10px;
+    text-align: center;
+}
+
+.lpadding-50{
+    padding-left: 50px;
+}
+
+
+thead th{
+    text-align: center;
+}
+
+
+/* Staff */
+#staff-img img{
+    max-width: 100%;
+    max-height: 250px;
+    width: 100%;
+    height: 250px;
+}
+
+
+#staff-img{
+    background-color: lightgrey;
+}
+
+
+/* Result Manager */
+
+.get_student:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+
+.edit_student:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+
+/* Access Pin */
+#access-pin-container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 15px 10px;
+    border: solid 1px lightgrey;
+    border-radius: 4px;
+    width: 270px;
+}
+
+
+#access-pin-container #pin_logo{
+    margin-bottom: 15px;
+}
+
+.pin{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

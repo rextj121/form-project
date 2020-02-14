@@ -1,0 +1,403 @@
+body{
+    background-color: rgb(11, 13, 14);
+    background-image: url(../../images/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height:100%;
+}
+
+#login-body{
+    background-color: rgb(0, 18, 23);
+    background-image: none;
+    height:100%;
+}
+
+html{
+  height:100%
+}
+
+
+.deptitle{
+    font-size: 3.4em;
+    padding-top: 80px;
+    text-align: center;
+    
+}
+
+.intro{
+  height:100%
+}
+
+.left{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color: rgb(11, 13, 14);
+  height : 100%;
+  color : #FFF;
+
+}
+
+.right{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color: transparent;
+  height : 100%;
+  color : #3d231b;
+}
+
+#foot-note{
+    bottom: 10%;
+    position: absolute;
+}
+
+
+#foot-note a:link{
+    color: aliceblue;
+}
+
+
+#btn-login{
+   background-color: rgb(0,43,55); 
+   color: aliceblue;
+}
+
+
+#btn-login:hover{
+   background-color: rgb(0,61,79); 
+}
+
+
+#login-form-holder{
+    margin: auto;
+}
+
+@media (max-width: 1200px) { 
+  .left{
+    height:50%
+  }
+  .right{
+    height:50%
+  }
+}
+
+#smart-navbar{
+    border: none;
+    background-color: rgb(22, 27, 29);
+}
+
+#news-bar{
+    background-color: black;
+    max-width: 400px;
+    font-size: 14px;
+}
+
+#smart-nav{
+    font-size: 17px;
+}
+
+.navbar-brand{
+    'background-color: black;
+}
+
+.dark-badge{
+    background-color: rgb(11, 13, 14); 
+}
+
+
+
+#mainBoard{
+    padding: 0px;
+}
+
+#side-bar{
+    background-color: rgb(56, 66, 71);
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    box-shadow: 0px 3px 15px 0px black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#side-bar>p{
+    color: lavender;
+    text-align: center;
+    padding: 17px 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#side-bar p:hover{
+    background-color: rgb(11, 13, 14);
+}
+
+#side-bar .fa{
+    font-size: 30px;
+}
+
+#side-bar a:link{
+    color: lavender;
+}
+
+
+#side-bar a:hover{
+    color: lavender;
+}
+
+#side-bar a:visited{
+    color: lavender;
+}
+
+#user-profile-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+}
+
+
+.profile-contols{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+
+#profile-edit-btn{
+    font-size: 20px;
+    color: white;
+    border: solid 1px white;
+    border-radius: 3px;
+    padding: 10px ;
+    opacity: 0.40;
+}
+
+
+#profile-edit-btn:hover{
+    cursor: pointer;
+    opacity: 0.90;
+}
+
+
+.image-holder{
+    background-color: DarkSlateGray ;
+    padding: 20px 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.image-holder>img{
+    margin: auto;
+    max-height: 150px;
+    max-width: 150px;
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+}
+
+.user-info{
+    background-color: aliceblue;
+    margin-top: opx;
+    padding: 20px 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+#alertModal{
+    top: 5%;
+}
+
+#md-body{
+    height: auto;
+}
+
+#md-header, #md-footer{
+    border: none;
+}
+
+#md-footer{
+}
+
+#hrMenu{
+    top:5%;
+    right:50%;
+    outline: none;
+}
+
+#accountMenu{
+    top:20%;
+    right:50%;
+    outline: none;
+}
+
+#contractMenu{
+    top:35%;
+    right:50%;
+    outline: none;
+}
+
+
+#hseMenu{
+    top:45%;
+    right:50%;
+    outline: none;
+}
+
+
+#inventoryMenu{
+    top:65%;
+    right:50%;
+    outline: none;
+}
+
+#menuhr{
+    width: 100%;
+}
+
+.md-items{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: thin solid rgb(111, 128, 144);
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    height: auto;
+}
+
+
+#chat-nav{
+    margin-bottom: 10px;
+}
+
+
+#chat-area{
+    height: 200px;
+    overflow-y: scroll;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    border: thin solid rgb(111, 128, 144);
+    
+}
+
+
+#chat-box{
+    
+}
+
+#chat-btn{
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+
+#records{
+    margin: 20px 0px 50px 0px;
+}
+
+.rec-items{
+    margin: 0px 20px;
+    text-align: center;
+    color: white;
+    border: thin solid rgb(111, 128, 144);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.rec-value{
+    font-size: 18px;
+}
+
+.item-loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid rgb(0, 153, 153); /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+    border-bottom: 16px solid rgb(0, 153, 153);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+#div-comp-info{
+    margin-top: 30px;
+}
+
+#tbl-comp-info td{
+    border: none;
+    padding-left: 0px;
+    color: aliceblue;
+}
+
+.lbl{
+    opacity: 0.40;
+}
+
+.valu{
+    opacity: 0.80;
+}
+
+#tbt-comp-info{
+}
+
+
+#hr-body{
+    
+}
+
+#hr-board{
+    background-color: white;
+    padding: 20px 20px;
+}
+
+
+#hr-board-40{
+    padding: 20px 20px;
+    width: 40%;
+}
+
+#hr-tbl-head{
+    background-color: darkslategrey;
+    color: aliceblue;
+}
+
+#hr-tbl-head tr{
+}
+
+#hr-search-control{
+    margin: 15px 0px;
+}
+
+#lg-right{
+    background-image: url(../../images/left-bg.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.btn-wide{
+    width: 100%;
+}
+
+.text-lbl{
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+#btnSubmit{
+}
+

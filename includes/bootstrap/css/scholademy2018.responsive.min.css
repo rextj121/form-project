@@ -1,0 +1,58 @@
+@media screen and (min-width: 280px) {
+    #admin-menu{
+        position: fixed;
+        bottom: 50px;
+        left: 5%;
+    }
+    
+    
+    #user-data, #timer{
+        text-align: center;
+    }
+    
+    
+    #admission_form{
+        width: 90%;
+    }
+    
+    
+  
+}
+
+
+@media screen and (min-width: 1000px) {
+    
+    #user-data{
+        text-align: right;
+    }
+    
+    #timer{
+        text-align: left;
+    }
+    
+    
+    #admission_form{
+        width: 85%;
+    }
+    
+    #image-preview{
+        background-color: lightgray;
+        border: 1px solid grey;
+        border-radius: 5px;
+        height: 250px;
+        max-width: 100%;
+        max-height: 250px;
+        margin-bottom: 20px;
+    }
+    
+    
+    #image-preview img{
+        border-radius: 5px;
+        height: 250px;
+        max-width: 100%;
+        max-height: 250px;
+        margin-bottom: 20px;
+    }
+}
+
+

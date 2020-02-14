@@ -11,6 +11,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "swiftmailer/swiftmailer": "^6.0"
+        "swiftmailer/swiftmailer": "^6.0",
+        "vlucas/phpdotenv": "^4.1@dev"
     }
 }

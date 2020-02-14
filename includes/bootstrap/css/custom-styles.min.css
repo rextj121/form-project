@@ -1,0 +1,696 @@
+#slide-caption{
+    position: absolute;
+    bottom: 40%;
+}
+
+
+.input-box-lg{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.btn-lg230{
+    width: 230px;
+}
+
+.short-line{
+    width: 130px;
+    border: solid 0.8px orange;
+}
+
+.marginTB20{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.carousel-inner .item img{
+    max-height: 100%;
+    height: 100%;
+}
+
+.carousel-inner .item h3{
+    font-size: 5em;
+}
+
+.carousel-inner .item h4{
+    font-size: 3em;
+}
+
+.carousel-inner .item p{
+    font-size: 1.4em;
+    color: yellow;
+}
+
+
+.carousel-inner .item .btn{
+    width: 200px;
+}
+
+
+#slide-wrapper{
+    padding: 0px;
+}
+
+
+#myNavbar{
+    margin-left: 200px;
+    font-size: 1.1em;
+}
+
+#str-drop-down{
+    background-color: transparent;
+}
+
+
+#myNavbar a{
+    color: white;
+}
+
+#myNavbar a:hover{
+    color: orange;
+}
+
+
+#modal-stuff{
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.modal-height500{
+    height: 500px;
+    padding-bottom: 30px;
+}
+
+#btnbook{
+    background-color: transparent;
+}
+
+
+#str-nav-head{
+    position: absolute;
+}
+
+
+#str-nav{
+    background-color: transparent;
+    border: none;
+}
+
+#str-nav #str-nav-wrapper{
+    background-color: transparent;
+    background-repeat: repeat-x;
+    border-bottom: solid white 1.3px;
+}
+
+
+#myNavbar{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+#myNavbar .navbar-nav .active{
+    background-color: transparent;
+}
+
+
+.section20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.section30{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.section50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section100{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.btn-transparent{
+    background-color: transparent;
+}
+
+
+.div-overlay {
+    position: absolute; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 1000; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+
+
+
+#toTop{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+}
+
+#toTop img{
+    width: 50px;
+    height: 50px;
+    max-height: 50px;
+    max-width: 50px;
+}
+
+
+#container-40{
+    width: 40%;
+    margin-top: 10%;
+}
+
+/* About Us */
+
+#about{
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about h1{
+    font-size: 4em;
+}
+
+#about p{
+    font-size: 1.1em;
+}
+
+/* #About us */
+
+
+/* Stand out */
+#stand-out{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-image: url('../../images/3.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: transparent;
+}
+
+#stand-out blockquote{
+    font-size: 5em;
+    color: white;
+}
+
+#stand-out .container{
+    background-color: transparent;
+}
+
+#btn-quote{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 200px;
+}
+
+/* #Stand out */
+
+
+/* Services */
+
+#services hr{
+    width: 130px;
+    border: solid 0.8px orange;
+}
+
+
+#service-img img{
+    width: 100%;
+    height: 160px;
+    max-width: 100%;
+    max-height: 160px;
+}
+
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 90%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.service-item:hover .overlay {
+  opacity: 1;
+}
+
+
+#btn-service{
+    width: 100%;
+}
+
+
+/* #Services */
+
+
+
+/* Events */
+
+#events{
+    background-color: black;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+#events hr{
+    width: 130px;
+    border: solid 0.8px orange;
+}
+
+
+/* #Events */
+
+/* NewsLetter */
+#newsletter{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#newsletter input{
+    color: #303030;
+    font-size: 18px;
+}
+
+
+#newsletter h2{
+    color: #303030;
+}
+/* #NewsLetter */
+
+
+/* Social Media */
+#social-media{
+    background-color: #e0e0e0;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#testimonials{
+    border-left: solid 0.2em #CCCCCC;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+/* #Social Media */
+
+
+/* Testimonials */
+#test-img img{
+    padding: 10px;
+    background-color: black;
+    max-width: 80px;
+    max-height: 80px; 
+}
+
+
+#test-img{
+    padding: 10px;
+}
+
+#test-data{ 
+    border-bottom: solid 1px #cccccc; 
+}
+/* #Testimonials */
+
+
+/* Contact us */
+
+#contact{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-image: url('../../images/3-1.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: transparent;
+    color: white;
+}
+
+#cont-form-content input{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 18px;
+    background-color: transparent;
+    border: solid 1px orange;
+    color: white;
+}
+
+
+#cont-form-content textarea{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 16px;
+    background-color: transparent;
+    border: solid 1px orange;
+    color: white;
+}
+
+.address-info{
+    margin-top: 100px;
+}
+
+.address-info a{
+    color: aliceblue;
+}
+
+.address-info a:hover{
+    color: orange;
+}
+
+#cont-form-content button{
+    width: 100%;
+}
+/* #Contact us */
+
+/* footer */
+#footer{
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-top: solid 0.1em #303030;
+}
+
+
+#footer .list-group li{
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+}
+
+#footer p{
+    color: #909090;
+    font-size: 15px;
+}
+
+#footer h4{
+    color: #909090;
+    font-size: 18px;
+}
+
+
+#footer-sub{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #101010;
+    color: aliceblue;
+}
+
+
+#qlinks{
+    margin-left: 50px;
+}
+
+
+#footer-img{
+    padding: 0px;
+}
+/* #footer */
+
+
+/* Visa Application */
+#visa-form-content .row{
+    margin-bottom: 30px;
+}
+
+#visa-form-content legend{
+    border: solid 1px orange;
+    padding: 5px;
+    background-color: darkorange;
+    color: white;
+    opacity: 0.70;
+}
+
+
+#visa-form-content #controls{
+    margin-bottom: 40px;
+}
+
+
+#visa-form-content .radControl{
+    margin-right: 30px;
+}
+
+#visa-form-content span{
+    margin-right: 10px;
+}
+/* #Visa Application */
+
+@media screen and (max-width: 800px) {
+    
+    #qlinks{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    
+    #slide-caption{
+        position: absolute;
+        bottom: 10%;
+    }
+    
+    .address-info h4{
+        font-size: 12px;
+    }
+    
+    .carousel-inner .item img{
+        max-height: 350px;
+        height: 350px;
+        max-width: 100%;
+        width: 100%;
+    }
+    
+        #myNavbar{
+        margin-left: 0px;
+        background-color: black;
+        
+    }
+
+    #str-nav-head{
+        position: relative;
+    }
+    
+    #str-nav #str-nav-wrapper{
+        opacity: 0.90;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    
+    #str-nav{
+        background-color: transparent;
+        border: none;
+    }
+
+    #str-nav #str-nav-wrapper{
+        background-color: transparent;
+        background-image: none;
+    }
+    
+    #stand-out blockquote{
+        font-size: 2em;
+    }
+    
+}
+
+
+/* Admin */
+#admin-body{
+    background-color: #f3f3f3;
+}
+
+#admin-top{
+    background-color: white;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding-bottom: 25px;
+    padding-top: 25px;
+    
+}
+
+#admin-top img{
+    padding: 10px;
+    background-color: black;
+}
+
+
+#dash-title{
+    border-right: solid 1px #606060;
+}
+
+.admin-gen-div{
+    background-color: white;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+#dash-content .well{
+    background-color: white;
+}
+
+#admin-mails{
+    height: 200px;
+    overflow-y: scroll;
+}
+
+
+#admin-test{
+    height: 200px;
+    overflow-y: scroll;
+}
+
+#admin-stuff{
+    margin-bottom: 40px;
+}
+
+.white-papar-shadow{
+    background-color: white;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+#tbl-application-head{
+    background-color: #303030;
+    color: #d3d3d3;
+}
+
+#admin-slide-wrapper{
+    padding: 0px;
+}
+
+#admin-slide-wrapper .carousel-inner .item img{
+}
+
+#login-body{
+    background-image: url('../../../resources/images/3.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#login-container{
+    width: 300px;
+    margin-top: 10%;
+}
+
+#login-container img{
+    width: 180px;
+    height: 120px;
+}
+
+.widebtn{
+    width: 100%;
+}
+
+/* Admin */
+
+
+@media screen and (max-width: 480px) {
+    #qlinks{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    
+    .address-info h4{
+        font-size: 12px;
+    }
+    
+    .carousel-inner .item h3{
+        font-size: 1.8em;
+    }
+    
+    .carousel-inner .item h4{
+        font-size: 1.6em;
+    }
+
+    .carousel-inner .item p{
+        font-size: 0.9em;
+    }
+    
+    
+    #slide-caption{
+        position: absolute;
+        bottom: 0%;
+    }
+    
+    #myNavbar{
+        margin-left: 0px;
+        background-color: black;
+        
+    }
+
+    #str-nav-head{
+        position: relative;
+    }
+    
+    #str-nav #str-nav-wrapper{
+        opacity: 0.90;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    
+    #str-nav{
+        background-color: transparent;
+        border: none;
+    }
+
+    #str-nav #str-nav-wrapper{
+        background-color: transparent;
+        background-image: none;
+    }
+
+    
+    .carousel-inner .item img{
+        max-height: 250px;
+        height: 250px;
+    }
+    
+    #str-logo{
+        display: none;
+    }
+    
+    #str-logo img{
+        width: 170px;
+        height: 50px;
+        max-width: 170px;
+        max-height: 50px;
+    }
+    
+    #stand-out blockquote{
+        font-size: 2em;
+    }
+}

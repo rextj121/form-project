@@ -1,0 +1,178 @@
+.main-navbar{
+    background-color: #e40e35;
+}
+
+
+#main{
+    padding-bottom: 40px;
+}
+
+#myNavbar{
+     color: white;
+}
+
+#app-title, #white-text{
+    color: white;
+}
+
+#active-list{
+    background-color: #e40e35;
+    border: none;
+    text-align: center;
+}
+
+
+.main-color-bg{
+    background-color: #e40e35;
+}
+
+#main-color-bg{
+    background-color: #e40e35;
+    color: white;
+}
+
+.main-color-font{
+    color: #e40e35;
+}
+
+.uni-color-font{
+    color: white;
+}
+
+#user-profile{
+
+}
+
+#user-profile img{
+    width: 150px;
+    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.user-name{
+
+}
+
+#page-title{
+    background-color: #e3e3e3;
+    color: #484848;
+    border-radius: 30px;
+}
+
+
+.margin10{
+    margin: 10px 0px;
+}
+
+.rmargin15{
+    margin: 0px 15px;
+}
+
+.lmargin15{
+    margin: 0px 15px;
+}
+
+
+#logout-btn{
+    text-align: center;
+    background-color: #e40e35;
+    color: white;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    text-align: right;
+    bottom: 0%;
+    margin-top: 50px; 
+    font-size: 10px;
+}
+
+#footer .navbar-brand{
+    font-size: 12px;
+}
+
+#footer h5{
+    padding: 5px 0px; 
+}
+
+.topbtn{
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+#school-title{
+    background-color: #404040;
+    color: white;
+    border-radius: 4px;
+}
+
+#invisible-table td{
+    border: none;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+#editBtn0{
+    font-size: 12px;
+    background-color: #333;
+    border: none;
+}
+
+#editBtn0:hover{
+    font-size: 12px;
+    background-color: #909090;
+    border: none;
+}
+
+
+.modal-header{
+    background-color: #e40e35;
+    color: white;
+}
+
+.modal-footer{
+    background-color: #f3f3f3;
+}
+
+
+.text12{
+    font-size: 12px;
+}
+
+
+.text10{
+    font-size: 10px;
+}
+
+#copy-text{
+    font-size: 8px;
+}
+
+
+.btn-grey{
+    background-color: #303030;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+.greylbl16{
+    background-color: #303030;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+#studentRegForm legend{
+    color: #e40e35;
+}
+
+.field-help{
+    color: red;
+}

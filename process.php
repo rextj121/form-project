@@ -1,4 +1,9 @@
-<?php require_once("vendor/autoload.php"); 
+<?php
+    require_once("vendor/autoload.php");
+   
+    $dotenv =  Dotenv\Dotenv::createImmutable(__DIR__);
+    $dotenv->load();
+     
 
     if(isset($_POST['submit'])){
     
@@ -11,16 +16,16 @@
             Thanks!
             ";
 
-         // sending mail
-        $transport = (new Swift_SmtpTransport('smtp.mailgun.org', 587, 'TSL')) 
-        ->setUsername('postmaster@sandbox57f54ce29a6046f3a936f12768b32f30.mailgun.org')
-        ->setPassword('0a5a3ef2bc9b133d96a7d67521466908-52b6835e-7f7139ee')
+        //  sending mail
+        $transport = (new Swift_SmtpTransport(getenv('SMTP_HOST'), getenv('SMTP_PORT'), getenv('SMTP_ENCRIPTION')))
+        ->setUsername(getenv('SMTP_USERNAME'))
+        ->setPassword(getenv('SMTP_PASSWORD'))
         ;
         $mailer = new Swift_Mailer($transport);
         // Create a message
         $message = (new Swift_Message('Board of Directors'))
-        ->setFrom(['rextj121@gmail.com' => 'CEO'])
-        ->setTo(['tojufutughe@gmail.com' => 'Chairman'])
+        ->setFrom([getenv('MAIL_FROM') => 'CEO'])
+        ->setTo([getenv('MAIL_FROM_NAME') => 'Chairman'])
 
         ->setBody($messages)
         ;
@@ -29,6 +34,4 @@
         }else{
         header("Location: index.php");
     }
-   
-
 ?>

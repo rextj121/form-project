@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #f3f3f3;
+}
+
+#main-content{
+    background-color: white;
+    padding: 10px 5px;
+    border: solid 1px #e9e9e9;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+
+.box300, #hosText, #aboutFooter, #aboutMission, #aboutAims{
+    height: 300px;
+    max-height: 300px;
+} 
+
+.box220, #aboutHome{
+    height: 220px;
+    max-height: 220px;
+}
+
+.boxover, #hosText, #aboutFooter, #aboutMission, #aboutAims{
+    box-sizing: content-box;
+    text-overflow: ellipsis
+}
+
+.lead-img img{
+    width: 100%;
+    max-width: 100%;
+    height: 280px;
+    max-height: 280px;
+}
+
+.hos-img img{
+    width: 100%;
+    max-width: 100%;
+    height: 350px;
+    max-height: 350px;
+}
+
+
+
+.banner-img img, .gal-img img{
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
+    max-height: 250px;
+}
+
+
+.sld-img img{
+    width: 100%;
+    max-width: 100%;
+    height: 150px;
+    max-height: 150px;
+}
+
+.sld-img{
+    margin: 20px 0px;
+}
+
+#diag-content{
+    width: 40%;
+}
+
+#page-title{
+    padding: 0px 20px;
+}
+
+#myNavbar .fa{
+    font-size: 20px;
+}
+
+#myNavbar .facebook a{
+    color: cornflowerblue;
+}
+
+#myNavbar .twitter a{
+    color:  deepskyblue;
+}
+
+#myNavbar .youtube a{
+    color: crimson;
+}
+
+#myNavbar .logout a{
+    color: red;
+}
+
+#myNavbar .webmail a{
+    color: goldenrod;
+}
+
+#myNavbar .website a{
+    color: aquamarine;
+}
+
+
+.user-image{
+    padding: 5px;
+    align-content: center;
+}
+
+.user-image span{
+    font-size: 200px;
+    color: dimgray;
+}
+
+
+
+/* Login Page */
+
+
+#login-form-wrapper{
+    width: 270px;
+    height: auto;
+    margin-top: 5%;
+}
+
+
+#login-form-wrapper img{
+    height: 70px;
+    width: 70px;
+    max-height: 70px;
+    max-width: 70px;
+}
+
+#login-form{
+    background-color: white;
+    border: solid 1px #ffeecc;
+    padding: 30px 15px;
+}
+
+#login-form .input-group{
+    margin: 10px 0px;
+}
+
+
+#login-bdy{
+    background-color: floralwhite;
+    color: aliceblue;
+}
+
+.wide-btn{
+    width: 100%;
+}
+
+.margin-tb5{
+    margin: 5px 0px;
+}
+
+.margin-tb15{
+    margin: 15px 0px;
+}
+
+#login-btn{
+    margin-top: 10px;
+}
+
+#form-response{
+    font-size: 10px;
+    margin: 5px 0px;
+}
+/* #Login Page */
